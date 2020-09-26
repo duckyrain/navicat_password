@@ -45,9 +45,3 @@ class Decrypt12(object):
     def __un_pad(s):
         return s[:-ord(s[len(s) - 1:])]
 
-
-if __name__ == "__main__":
-    # print(Decrypt11().decrypt("96768668BEC5D821"))
-    # print(decrypt_12.decrypt("12207C3904043FB009272E7EAA860E09"))
-    print(Decrypt12().decrypt("833E4ABBC56C89041A9070F043641E3B"))
-
